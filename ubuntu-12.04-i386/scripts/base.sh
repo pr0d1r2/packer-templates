@@ -1,6 +1,6 @@
 apt-get -y update
 apt-get -y upgrade
-apt-get -y install build-essential curl wget linux-headers-$(uname -r)
+apt-get -y install build-essential curl wget git linux-headers-$(uname -r)
 apt-get -y install vim emacs emacs-goodies-el
 apt-get clean
 
