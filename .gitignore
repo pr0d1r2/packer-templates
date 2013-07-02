@@ -11,3 +11,6 @@
 
 ## PACKER
 packer_cache
+output-v*
+*.box
+*.tar.gz
