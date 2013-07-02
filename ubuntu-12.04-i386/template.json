@@ -3,14 +3,14 @@
     {
       "type": "shell",
       "scripts": [
-        "scripts/base.sh",
-        "scripts/virtualbox.sh",
-        "scripts/vagrant.sh",
-        "scripts/vmfusion.sh",
-        "scripts/chef.sh",
-        "scripts/chef-zero.sh",
-        "scripts/cleanup.sh",
-        "scripts/zerodisk.sh"
+        "ubuntu-12.04-i386/scripts/base.sh",
+        "ubuntu-12.04-i386/scripts/virtualbox.sh",
+        "ubuntu-12.04-i386/scripts/vagrant.sh",
+        "ubuntu-12.04-i386/scripts/vmfusion.sh",
+        "ubuntu-12.04-i386/scripts/chef.sh",
+        "ubuntu-12.04-i386/scripts/chef-zero.sh",
+        "ubuntu-12.04-i386/scripts/cleanup.sh",
+        "ubuntu-12.04-i386/scripts/zerodisk.sh"
       ],
       "override": {
         "virtualbox": {
