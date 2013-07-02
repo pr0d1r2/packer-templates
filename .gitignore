@@ -1,0 +1,13 @@
+## MAC OS
+.DS_Store
+
+## EMACS
+*~
+\#*
+.\#*
+
+## VIM
+*.sw?
+
+## PACKER
+packer_cache
