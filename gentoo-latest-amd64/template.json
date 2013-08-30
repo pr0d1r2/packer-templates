@@ -103,5 +103,11 @@
         "cpuid.coresPerSocket": "1"
       }
     }
+  ],
+    "post-processors": [
+    {
+      "type": "vagrant",
+      "keep_input_artifact": true
+    }
   ]
 }
