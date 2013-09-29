@@ -59,13 +59,13 @@
           "modifyvm",
           "{{.Name}}",
           "--memory",
-          "512"
+          "1024"
         ],
         [
           "modifyvm",
           "{{.Name}}",
           "--cpus",
-          "1"
+          "2"
         ]
       ]
     },
@@ -92,8 +92,8 @@
       "ssh_wait_timeout": "10000s",
       "shutdown_command": "echo 'shutdown -P now' > shutdown.sh; echo 'vagrant'|sudo -S sh 'shutdown.sh'",
       "vmx_data": {
-        "memsize": "512",
-        "numvcpus": "1",
+        "memsize": "1024",
+        "numvcpus": "2",
         "cpuid.coresPerSocket": "1"
       }
     }
